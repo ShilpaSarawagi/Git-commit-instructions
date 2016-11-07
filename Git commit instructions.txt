@@ -1,0 +1,19 @@
+Git commit to GIT repository in browser-
+
+In git bash go to the directory which you want to commit-
+
+$ git init
+
+$ git add .
+
+$ git commit -m "commit msg"
+
+$ git remote add origin https://github.com/ShilpaSarawagi/Creating-fragments-in-android
+------------- This would prompt for username- email id and password
+
+$ git remote -v
+origin  https://github.com/ShilpaSarawagi/Creating-fragments-in-android (fetch)
+origin  https://github.com/ShilpaSarawagi/Creating-fragments-in-android (push)
+
+$ git push origin master
+
